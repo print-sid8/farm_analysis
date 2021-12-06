@@ -4,6 +4,8 @@
 
 This repo has a notebook that will perform NDVI and NDMI analysis on given AOIs, on a monthly basis and create PNG outputs that are then visualized on a Folium basemap. It uses [Element84 API](https://www.element84.com/earth-search/) to acquire Sentinel-2 L2A images from AWS Open Data S3 buckets, in your area of interest and time range.
 
+The [analysis_summary](https://github.com/print-sid8/farm_analysis/blob/main/analysis_summary.pdf) PDF provides an overview of the analysis and the approach taken for it.
+
 
 ### Setting up the Environment
 
