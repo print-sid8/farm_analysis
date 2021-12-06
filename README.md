@@ -9,6 +9,14 @@ This repo has a notebook that will perform NDVI and NDMI analysis on given AOIs,
 
 This script was developed using Python > = 3.6, in Ubuntu 20.04.
 
+
+Note : osgeo gdal must be setup, and the script `gdalinstall.sh` helps installing gdal in a Debian OS such as Ubuntu.
+It is run as below -
+
+```bash
+bash gdalinstall.sh
+```
+
 Note : The environment setup requires Dask, Xarray, and few other libraries for Multiprocessing, hence "Coiled" must be setup using miniconda/conda. Miniconda reduces dependencies. 
 
 It is run as below -
