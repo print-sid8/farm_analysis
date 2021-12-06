@@ -25,7 +25,7 @@ It is run as below -
 conda install -c conda-forge coiled
 ```
 
-To install required packages -
+To create a new conda env -
 
 ```bash
 coiled install gjoseph92/stackstac
